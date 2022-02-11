@@ -11,6 +11,14 @@ button {
     outline: none;
     border: none;
 }
+@font-face {
+    font-family: "GilroyBold";
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+@font-face {
+    font-family: "GilroyMedium";
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
 /* Common */
 .container{
     max-width: 1345px;
@@ -31,7 +39,7 @@ button {
     align-items: center;
 }
 .header__number{
-    font-family: "Roboto";
+    font-family: "GilroyBold";
     font-weight: 500;
 }
 .header__salons-item{
@@ -54,8 +62,7 @@ button {
     font-size: 16px;
     line-height: 100%;
     margin-right: 15px;
-    font-family: "Roboto";
-    font-weight: 500;
+    font-family: "GilroyMedium";
 }
 .header__button{
     width: 270px;
@@ -66,8 +73,7 @@ button {
     line-height: 100%;
     text-transform: uppercase;
     padding: 1px 5px 0 40px;
-    font-family: "Roboto";
-    font-weight: 500;
+    font-family: "GilroyMedium";
     transition: background-color .3ms;
 }
 .header__button:hover{
@@ -116,8 +122,7 @@ button {
     font-size: 16px;
     line-height: 100%;
     margin-right: 15px;
-    font-family: "Roboto";
-    font-weight: 500;
+    font-family: "GilroyMedium";
 }
 /* Section 1 */
 .screen-1{
@@ -146,8 +151,7 @@ button {
     text-align: center;
     font-size: 18px;
     line-height: 100%;
-    font-weight: 500;
-    font-family: "Roboto";
+    font-family: "GilroyMedium";
 }
 .registr__btn:hover{
     -webkit-box-shadow: 0px 0px 0px 3px rgba(0, 0, 0, 0.31);
@@ -159,8 +163,7 @@ button {
     padding: 10px 20px;
     font-size: 18px;
     line-height: 150%;
-    font-weight: 500;
-    font-family: "Roboto";
+    font-family: "GilroyMedium";
     color: white;
 }
 .nav-top__item:hover{
@@ -183,17 +186,15 @@ button {
 .screen-1__title{
     font-size: 48px;
     line-height: 150%;
-    font-weight: 700;
     color: white;
-    font-family: "Roboto";
+    font-family: "GilroyBold";
     margin-bottom: 30px;
 }
 .screen-1__para{
     font-size: 14px;
     line-height: 150%;
-    font-weight: 500;
     color: white;
-    font-family: "Roboto";
+    font-family: "GilroyMedium";
 }
 .screen-1__btn{
     width: 163px;
@@ -205,6 +206,7 @@ button {
     font-weight: 500;
     margin: 40px 0 24px 0;
     transition: background-color .3ms;
+    text-transform: uppercase;
 }
 .screen-1__btn:hover{
     background-color: rgb(1, 145, 150);
@@ -246,8 +248,7 @@ button {
 .nav-bottom__item{
     font-size: 21px;
     line-height: 150%;
-    font-weight: 500;
-    font-family: "Roboto";
+    font-family: "GilroyMedium";
     background-color: rgba(0, 134, 138, 1);
     color: white;
     display: grid;
